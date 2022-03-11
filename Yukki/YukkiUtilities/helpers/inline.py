@@ -144,7 +144,7 @@ start_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "📚 Commands", url="https://telegra.ph/Veez-Mega-Bot-09-30"
+                        "📚 Commands", url="https://telegra.ph"
                     )
                 ],
                 [
