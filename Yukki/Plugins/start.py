@@ -25,11 +25,11 @@ def start_pannel():
                 InlineKeyboardButton(text="📚 Commands", url="https://telegra.ph/Vayu-Music-03-11)
             ],
             [ 
-                InlineKeyboardButton(text="📣 Channel", url="https://t.me/Ridham_Pro"),
-                InlineKeyboardButton(text="💭 Group", url="https://t.me/Loggroup223")
+                InlineKeyboardButton(text="📣 Channel", url="https://t.me/RidhamChannal"),
+                InlineKeyboardButton(text="💭 Group", url="https://t.me/RidhamMusicc")
             ],
     ]
-    return "✨ This is veez mega, a bot that can play music trought the Telegram Group video chat.", buttons
+    return "✨ This is Ridham music, a bot that can play music trought the Telegram Group video chat.", buttons
 
 pstart_markup=InlineKeyboardMarkup(
             [
@@ -40,15 +40,15 @@ pstart_markup=InlineKeyboardMarkup(
                     InlineKeyboardButton(
                         "📚 Commands", url="https://telegra.ph/Vayu-Music-03-11"),
                     InlineKeyboardButton(
-                        "♥️ Donate", url="https://t.me/RidhamMusic")
+                        "♥️ Owner", url="https://t.me/vayu60")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group", url="https://t.me/Loggroup223"), 
+                        "👥 Ridham Group", url="https://t.me/RidhamMusicc"), 
                     InlineKeyboardButton(
-                        "📣 Official Channel", url="https://t.me/Ridham_Pro")
+                        "📣  Ridham Channel", url="https://t.me/RidhamChannal")
                 ],[
                     InlineKeyboardButton(
-                        "❓ Setup Guide", url="https://telegra.ph/")
+                        "❓ First read guide", url="https://telegra.ph/")
                 ]
             ]
         )
