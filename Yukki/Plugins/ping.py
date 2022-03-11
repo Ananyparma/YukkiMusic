@@ -24,7 +24,7 @@ async def bot_sys_stats():
 @app.on_message(filters.command(["ping", "ping@VeezMegaBot"]))
 async def ping(_, message):
     response = await message.reply_photo(
-        photo="cache/ping.png",
+        photo="cache/playlist.png",
         caption=">> pinging..."
     )
     uptime = await bot_sys_stats()
