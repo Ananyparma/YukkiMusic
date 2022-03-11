@@ -10,7 +10,7 @@ Generate & Choose pyrogram session string for session var.
 
 ### Deploy To Heroku 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Anany09876/YukkiMusic-Old)
 
 This repo has blacklisted by Heroku, to deploy this repo you need to fork this repo first by pressing the fork button in the upper right corner of this page and then clicking the deploy button above.
 
