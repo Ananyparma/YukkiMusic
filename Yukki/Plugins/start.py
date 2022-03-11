@@ -25,7 +25,7 @@ def start_pannel():
                 InlineKeyboardButton(text="📚 Commands", url="https://telegra.ph/")
             ],
             [ 
-                InlineKeyboardButton(text="📣 Channel", url="https://t.me/"),
+                InlineKeyboardButton(text="📣 Channel", url="https://t.me/Ridham_Pro"),
                 InlineKeyboardButton(text="💭 Group", url="https://t.me/Loggroup223")
             ],
     ]
@@ -35,17 +35,17 @@ pstart_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to a Group ➕", url="https://t.me/VeezMegaBot?startgroup=true")
+                        "➕ Add me to a Group ➕", url="http://t.me/RidhamMusic_Bot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "📚 Commands", url="https://telegra.ph/Veez-Mega-Guide-01-10"),
+                        "📚 Commands", url="https://telegra.ph"),
                     InlineKeyboardButton(
-                        "♥️ Donate", url="https://t.me/VMDonBot")
+                        "♥️ Donate", url="https://t.me/RidhamMusic")
                 ],[
                     InlineKeyboardButton(
                         "👥 Official Group", url="https://t.me/Loggroup223"), 
                     InlineKeyboardButton(
-                        "📣 Official Channel", url="https://t.me/")
+                        "📣 Official Channel", url="https://t.me/Ridham_Pro")
                 ],[
                     InlineKeyboardButton(
                         "❓ Setup Guide", url="https://telegra.ph/")
@@ -82,7 +82,7 @@ async def start(_, message: Message):
         await message.reply(f"❌ **This chat not authorized !**\n\nI can't stream music in non-authorized chat, ask to sudo user to auth this chat.\n\nCheck the sudo user list [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)", disable_web_page_preview=True)
         return await app.leave_chat(chat_id)
     out = start_pannel()
-    await message.reply_text(f"✨ Hello {message.from_user.mention}, i'm Veez Mega bot.\n\n💭 Appoint me as admin in your Group so i can play music, otherwise you can't use my service.", reply_markup=InlineKeyboardMarkup(out[1]))
+    await message.reply_text(f"✨ Hello {message.from_user.mention}, i'm 𝓡𝓲𝓭𝓱𝓪𝓶 𝓶𝓾𝓼𝓲𝓬𝓬.\n\n💭 Appoint me as admin in your Group so i can play music, otherwise you can't use my service.", reply_markup=InlineKeyboardMarkup(out[1]))
     return
 
 
