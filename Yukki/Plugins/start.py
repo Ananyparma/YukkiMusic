@@ -42,7 +42,7 @@ pstart_markup=InlineKeyboardMarkup(
                     InlineKeyboardButton(
                         "♥️ Vayu Id ", url="https://t.me/vayu60")
                     InlineKeyboardButton(
-                        "❤️ Aditi Id ", url="https://t.me/Aditidillon68")
+                        "❤️ Aditi Id ", url="https://t.me/Aditidillon")
                 ],[
                     InlineKeyboardButton(
                         "👥 Ridham Group", url="https://t.me/RidhamMusicc"), 
