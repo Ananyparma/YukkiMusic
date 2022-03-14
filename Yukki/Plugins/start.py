@@ -129,7 +129,7 @@ async def play(_, message: Message):
 📣 **Channel:** {channel}
 🔗 **Link:** {link}
 
-⚡️ __Powered by Veez Music AI__"""
+⚡️ __Powered by Vayu music AI__"""
             buttons = personal_markup(link)
             userid = message.from_user.id
             thumb = await down_thumb(thumbnail, userid)
