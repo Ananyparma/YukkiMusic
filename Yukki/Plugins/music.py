@@ -263,7 +263,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             user_name = message.from_user.first_name
-            thumb ="cache/playlist.png"
+            thumb ="cache/Resultq.png"
             buttons = playlist_markup(user_name, user_id)
             hmo = await message.reply_photo(
             photo=thumb, 
