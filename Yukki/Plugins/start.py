@@ -38,9 +38,7 @@ pstart_markup=InlineKeyboardMarkup(
                         "➕ Add me to a Group ➕", url="http://t.me/RidhamMusic_Bot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "📚 Commands", url="https://telegra.ph/Vayu-Music-03-11-2"),
-                    InlineKeyboardButton(
-                        "♥️ Vayu Id ", url="https://t.me/vayu60")
+                        "♥️ Vayu Id ", url="https://t.me/vayu60"),
                     InlineKeyboardButton(
                         "❤️ Aditi Id ", url="https://t.me/Aditidillon")
                 ],[
@@ -50,7 +48,9 @@ pstart_markup=InlineKeyboardMarkup(
                         "📣  Ridham Channel", url="https://t.me/RidhamChannal")
                 ],[
                     InlineKeyboardButton(
-                        "❓ First read guide", url="https://telegra.ph/Vayu-music-Guide-03-11-2")
+                        "❓ First read guide", url="https://telegra.ph/Vayu-music-Guide-03-11-2"),
+                    InlineKeyboardButton(
+                        "📚 Commands", url="https://telegra.ph/Vayu-Music-03-11-2")
                 ]
             ]
         )
