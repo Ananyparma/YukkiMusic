@@ -144,7 +144,7 @@ start_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "📚 Commands", url="https://telegra.ph"
+                        "📚 Commands", url="https://telegra.ph/Vayu-Music-03-11-2"
                     )
                 ],
                 [
