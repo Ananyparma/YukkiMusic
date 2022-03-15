@@ -36,7 +36,7 @@ async def restart_server(_, message):
             await remove_active_chat(x)
         except Exception:
             pass
-    x = await message.reply_text(f"restarting veez mega bot.")
+    x = await message.reply_text(f"restarting Vayu music Bot.")
     os.system(f"kill -9 {os.getpid()} && python3 -m Yukki")
 
 
