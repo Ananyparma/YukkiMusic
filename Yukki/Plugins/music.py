@@ -65,7 +65,7 @@ async def play(_, message: Message):
     await message.delete()
     chat_id = message.chat.id
     if not await is_served_chat(chat_id):
-        await message.reply(f"❌ **This chat not authorized !**\n\nFirst approve (auth) this group. **APPROVE METHOD** - type in your group 👉 **/Id** 👈After you copied the **ID** given by the bot, and contact sudo user or Owner.\n\n✨Owner >> @Check the sudo user list [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)", disable_web_page_preview=True)
+        await message.reply(f"❌ **This chat not authorized !**\n\nFirst approve (auth) this group. **APPROVE METHOD** - type in your group 👉 **/Id** 👈After you copied the **ID** given by the bot, and contact sudo user or Owner.\n\n✨**Owner**ID >> [ 𝓡𝓲𝓭𝓱𝓪𝓶 𝓶𝓾𝓼𝓲𝓬𝓬 ](https://t.me/RidhamMusic_Bot).\n\nCheck the sudo user list [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)", disable_web_page_preview=True)
         return await app.join_chat(chat_id)  
     if message.sender_chat:
         return await message.reply_text("you're an __Anonymous__ Admin !\n\n» revert back to user account from admin rights.")  
