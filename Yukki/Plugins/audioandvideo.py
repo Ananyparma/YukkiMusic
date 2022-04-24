@@ -369,7 +369,7 @@ async def boom(_,CallbackQuery):
 ⏱ **Duration:** `{round(x["duration"] / 60)}` min(s)
 📣 **Channel:** {x["uploader"]}
 
-⚡️ __Powered by  @vayu60 Music AI__"""    
+⚡️ __Powered by [ 𝓡𝓲𝓭𝓱𝓪𝓶 𝓶𝓾𝓼𝓲𝓬𝓬  ](https://t.me/Vayu60) Music __"""    
     link = (x["webpage_url"])
     channel = (x["channel_url"])
     perf = (x['uploader'])
