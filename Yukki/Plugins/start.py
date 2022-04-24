@@ -81,7 +81,7 @@ async def welcome(_, message: Message):
 async def start(_, message: Message):
     chat_id = message.chat.id
     if not await is_served_chat(chat_id):
-        await message.reply(f"🚫 **This chat not authorized !**\n\nFirst approve (auth) this group. **APPROVE METHOD** - type in your group 👉 **/Id** 👈After you copied the **ID** given by the bot, and contact sudo user or Owner.\n\n**Owner** ID 👉 [ From here ](https://t.me/Vayu60).e_weue)
+        await message.reply(f"🚫 **This chat not authorized !**\n\nFirst approve (auth) this group. **Approve Method** - type in your group 👉 **/Id** 👈After you copied the **ID** given by the bot, and contact or Owner.\n\n**Owner** ID 👉 [ From here ](https://t.me/Vayu60).
         return await app.leave_chat(chat_id)
     out = start_pannel()
     await message.reply_text(f"✨ Hello {message.from_user.mention}, i'm 𝓡𝓲𝓭𝓱𝓪𝓶 𝓶𝓾𝓼𝓲𝓬𝓬.\n\n💭 Appoint me as admin in your Group so i can play music, otherwise you can't use my service.", reply_markup=InlineKeyboardMarkup(out[1]))
