@@ -60,7 +60,7 @@ welcome_captcha_group = 2
 async def welcome(_, message: Message):
     chat_id = message.chat.id
     if not await is_served_chat(chat_id):
-        await message.reply(f"🚫 **This chat not authorized !**\n\nFirst approve (auth) this group. **APPROVE METHOD** - type in your group 👉 **/Id** 👈After you copied the **ID** given by the bot, and contact sudo user or Owner.\n\n**Owner** ID 👉 [ From here ](https://t.me/Vayu60).
+        await message.reply(f"🚫 **This chat not authorized !**\n\nFirst approve (auth) this group. **Approve Method** - type in your group 👉 **/Id** 👈After you copied the **ID** given by the bot, and contact or Owner.\n\n**Owner** ID 👉 [ From here ](https://t.me/Vayu60).
         return await app.leave_chat(chat_id)
     for member in message.new_chat_members:
         try:
