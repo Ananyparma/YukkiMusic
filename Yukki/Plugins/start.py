@@ -60,7 +60,7 @@ welcome_captcha_group = 2
 async def welcome(_, message: Message):
     chat_id = message.chat.id
     if not await is_served_chat(chat_id):
-        await message.reply(f"🚫 **This chat not authorized !**\n\nFirst approve (auth) this group. **Approve Method** - type in your group 👉 **/Id** 👈After you copied the **ID** given by the bot, and contact or Owner.\n\n**Owner** ID 👉 [ From here ](https://t.me/Vayu60).
+        await message.reply(f"❌ **This chat not authorized !**\n\nI can't stream music in non-authorized chat, ask to sudo user to auth this chat.\n\nCheck the sudo user list [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)", disable_web_page_preview=True)
         return await app.leave_chat(chat_id)
     for member in message.new_chat_members:
         try:
@@ -81,7 +81,7 @@ async def welcome(_, message: Message):
 async def start(_, message: Message):
     chat_id = message.chat.id
     if not await is_served_chat(chat_id):
-        await message.reply(f"🚫 **This chat not authorized !**\n\nFirst approve (auth) this group. **Approve Method** - type in your group 👉 **/Id** 👈After you copied the **ID** given by the bot, and contact or Owner.\n\n**Owner** ID 👉 [ From here ](https://t.me/Vayu60).
+        await message.reply(f"❌ **This chat not authorized !**\n\nI can't stream music in non-authorized chat, ask to sudo user to auth this chat.\n\nCheck the sudo user list [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)", disable_web_page_preview=True)
         return await app.leave_chat(chat_id)
     out = start_pannel()
     await message.reply_text(f"✨ Hello {message.from_user.mention}, i'm 𝓡𝓲𝓭𝓱𝓪𝓶 𝓶𝓾𝓼𝓲𝓬𝓬.\n\n💭 Appoint me as admin in your Group so i can play music, otherwise you can't use my service.", reply_markup=InlineKeyboardMarkup(out[1]))
