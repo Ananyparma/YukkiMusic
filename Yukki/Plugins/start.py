@@ -38,7 +38,7 @@ pstart_markup=InlineKeyboardMarkup(
                         "➕ Add me to a Group ➕", url="http://t.me/RidhamMusic_Bot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "♥️ Vayu Id ", url="https://t.me/vayu60"),
+                        "♥️ 𝗢𝘄𝗻𝗲𝗿 ", url="https://t.me/vayu60"),
                     InlineKeyboardButton(
                         "❤️ Aditi Id ", url="https://t.me/Aditidillon")
                 ],[
