@@ -94,7 +94,7 @@ async def play(_, message: Message):
         user_id = message.from_user.id
         user_name = message.from_user.first_name
         rpk = "["+user_name+"](tg://user?id="+str(user_id)+")" 
-        await app.send_ message(message.chat.id,
+        await app.send_message(message.chat.id,
             text=f"✨ Welcome {rpk} !\n\n💭 [ 𝓡𝓲𝓭𝓱𝓪𝓶 𝓶𝓾𝓼𝓲𝓬𝓬 ](https://t.me/RidhamMusic_Bot) **Can** play music on your **Groups** through the **Telegram Group call** feature !\n\n💡 **Check out** all the **Bot's commands** and how they work by clicking on the » ✅ **Commands** button!",
             parse_mode="markdown",
             reply_markup=pstart_markup,
