@@ -54,7 +54,6 @@ async def musicdl(_, message: Message):
     chat_id = message.chat.id
     if not await is_served_chat(chat_id):
        await add_served_chat(chat_id)
-        return await app.Join_chat(chat_id)  
     if message.sender_chat:
         return await message.reply_text("you're an __Anonymous__ Admin !\n\n» revert back to user account from admin rights.")  
     user_id = message.from_user.id
