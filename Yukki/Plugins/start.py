@@ -60,8 +60,8 @@ welcome_captcha_group = 2
 async def welcome(_, message: Message):
     chat_id = message.chat.id
     if not await is_served_chat(chat_id):
-        await add_served_chat(chat_id)
-     for member in message.new_chat_members:
+       await add_served_chat(chat_id)
+    for member in message.new_chat_members:
         try:
             if member.id in OWNER:
                 return await message.reply_text(f"🧙🏻‍♂️ • {member.mention} •\n\n• **Staff** of 𝓡𝓲𝓭𝓱𝓪𝓶 𝓶𝓾𝓼𝓲𝓬𝓬 has joined this Group.")
