@@ -60,9 +60,8 @@ welcome_captcha_group = 2
 async def welcome(_, message: Message):
     chat_id = message.chat.id
     if not await is_served_chat(chat_id):
-        await message.reply(f"❌ **This chat not authorized !**\n\nI can't stream music in non-authorized chat, ask to sudo user to auth this chat.\n\nCheck the sudo user list [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)", disable_web_page_preview=True)
-        return await app.leave_chat(chat_id)
-    for member in message.new_chat_members:
+        await add_served_chat(chat_id)
+     for member in message.new_chat_members:
         try:
             if member.id in OWNER:
                 return await message.reply_text(f"🧙🏻‍♂️ • {member.mention} •\n\n• **Staff** of 𝓡𝓲𝓭𝓱𝓪𝓶 𝓶𝓾𝓼𝓲𝓬𝓬 has joined this Group.")
