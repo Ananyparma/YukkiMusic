@@ -38,9 +38,9 @@ pstart_markup=InlineKeyboardMarkup(
                         "➕ Add me to a Group ➕", url="http://t.me/RidhamMusic_Bot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "♥️ 𝗢𝘄𝗻𝗲𝗿 ", url="https://t.me/vayu60"),
+                        "♥️ ✨𝗢𝘄𝗻𝗲𝗿✨ ", url="https://t.me/vayu60"),
                     InlineKeyboardButton(
-                        "❤️ Aditi Id ", url="https://t.me/Aditidillon")
+                        "❤️ SUDO USER ", url="https://t.me/Aditidillon")
                 ],[
                     InlineKeyboardButton(
                         "👥 Ridham Group", url="https://t.me/RidhamMusicc"), 
@@ -86,7 +86,7 @@ async def start(_, message: Message):
     return
 
 
-@Client.on_message(filters.private & filters.incoming & filters.command("vplay"))
+@Client.on_message(filters.private & filters.incoming & filters.command("start"))
 async def play(_, message: Message):
     if len(message.command) == 1:
         user_id = message.from_user.id
