@@ -459,7 +459,7 @@ Req By : {Name}
                     a1,
                 ],
                 [
-                    InlineKeyboardButton(text="🗑 Close", callback_data=f'close2')
+                    InlineKeyboardButton(text="◉ ᴄʟᴏsᴇ", callback_data=f'close2')
                 ]    
             ]
         )
