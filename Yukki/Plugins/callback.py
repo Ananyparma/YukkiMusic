@@ -450,10 +450,10 @@ Req By : {Name}
         key = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="▶️", callback_data=f'resumevc2'),
-                    InlineKeyboardButton(text="⏸️", callback_data=f'pausevc2'),
-                    InlineKeyboardButton(text="⏭️", callback_data=f'skipvc2'),
-                    InlineKeyboardButton(text="⏹️", callback_data=f'stopvc2')
+                    InlineKeyboardButton(text="▷", callback_data=f'resumevc2'),
+                    InlineKeyboardButton(text="II", callback_data=f'pausevc2'),
+                    InlineKeyboardButton(text="‣‣I", callback_data=f'skipvc2'),
+                    InlineKeyboardButton(text="▢", callback_data=f'stopvc2')
                 ],
                 [
                     a1,
@@ -596,10 +596,10 @@ Req By : {Name}
         key = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="▶️", callback_data=f'resumevc2'),
-                    InlineKeyboardButton(text="⏸️", callback_data=f'pausevc2'),
-                    InlineKeyboardButton(text="⏭️", callback_data=f'skipvc2'),
-                    InlineKeyboardButton(text="⏹️", callback_data=f'stopvc2')
+                    InlineKeyboardButton(text="▷", callback_data=f'resumevc2'),
+                    InlineKeyboardButton(text="II", callback_data=f'pausevc2'),
+                    InlineKeyboardButton(text="‣‣I", callback_data=f'skipvc2'),
+                    InlineKeyboardButton(text="▢", callback_data=f'stopvc2')
                 ],
                 [
                     a1,
