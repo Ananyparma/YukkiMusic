@@ -35,21 +35,17 @@ pstart_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to a Group ➕", url="http://t.me/RidhamMusic_Bot?startgroup=true")
+                        "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴀ ɢʀᴏᴜᴘ ➕", url="http://t.me/RidhamMusic_Bot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
                         "♥️ ✨𝗢𝘄𝗻𝗲𝗿✨ ", url="https://t.me/vayu60"),
-                    InlineKeyboardButton(
-                        "❤️ SUDO USER ", url="https://t.me/Aditidillon")
+                    InlineKeyboardButton(ꜱᴜᴅᴏ ᴜꜱᴇʀ
+                        "❤️ ꜱᴜᴅᴏ ᴜꜱᴇʀ✨ ", url="https://t.me/")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Ridham Group", url="https://t.me/RidhamMusicc"), 
-                    InlineKeyboardButton(
-                        "📣  Ridham Channel", url="https://t.me/RidhamChannal")
+                        "👥ɢʀᴏᴜᴘ✨, url="https://t.me/UnicornALIVE"), 
                 ],[
-                    InlineKeyboardButton(
-                        "❓ First read guide", url="https://telegra.ph/Vayu-music-Guide-03-11-2"),
-                    InlineKeyboardButton(
+                   InlineKeyboardButton(
                         "📚 Commands", url="https://telegra.ph/Vayu-Music-03-11-2")
                 ]
             ]
