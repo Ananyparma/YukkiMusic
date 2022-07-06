@@ -22,7 +22,7 @@ from Yukki.YukkiUtilities.database.sudo import (get_sudoers, get_sudoers, remove
 def start_pannel():  
     buttons  = [
             [
-                InlineKeyboardButton(text="📚 Commands", url="https://telegra.ph/Vayu-Music-03-11-2")
+                InlineKeyboardButton(text="📚 ᴄᴏᴍᴍᴀɴᴅꜱ🦄", url="https://telegra.ph/Vayu-Music-03-11-2")
             ],
             [ 
                 InlineKeyboardButton(text="📣 Channel", url="https://t.me/RidhamChannal"),
@@ -43,10 +43,10 @@ pstart_markup=InlineKeyboardMarkup(
                         "❤️ ꜱᴜᴅᴏ ᴜꜱᴇʀ✨ ", url="https://t.me/")
                 ],[
                     InlineKeyboardButton(
-                        "👥ɢʀᴏᴜᴘ✨, url="https://t.me/UnicornALIVE"), 
+                        "👥ɢʀᴏᴜᴘ🦄, url="https://t.me/UnicornALIVE"), 
                 ],[
                    InlineKeyboardButton(
-                        "📚 Commands", url="https://telegra.ph/Vayu-Music-03-11-2")
+                        "📚 ᴄᴏᴍᴍᴀɴᴅꜱ🦄", url="https://telegra.ph/Vayu-Music-03-11-2")
                 ]
             ]
         )
