@@ -39,7 +39,7 @@ pstart_markup=InlineKeyboardMarkup(
                 ],[
                     InlineKeyboardButton(
                         "♥️ ✨𝗢𝘄𝗻𝗲𝗿✨ ", url="https://t.me/vayu60"),
-                    InlineKeyboardButton(ꜱᴜᴅᴏ ᴜꜱᴇʀ
+                    InlineKeyboardButton(
                         "❤️ ꜱᴜᴅᴏ ᴜꜱᴇʀ✨ ", url="https://t.me/RidhamMusic")
                 ],[
                     InlineKeyboardButton(
