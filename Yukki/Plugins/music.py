@@ -271,8 +271,8 @@ async def play(_, message: Message):
             ) 
             return
         
-        query = " ".join(message.command[1:])
-        mystic = await _.send_message(chat_id, "🔍 **Searching...**")
+        query = " ".join(message.command[1
+        mystic = await _.send_message(chat_id, "🔍 **sᴇᴀʀᴄʜɪɴɢ, ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
         try:
             a = VideosSearch(query, limit=5)
             result = (a.result()).get("result")
@@ -477,7 +477,7 @@ async def startyuplay(_,CallbackQuery):
         await mystic.delete()
         m = await CallbackQuery.message.reply_photo(
         photo=thumb,
-        caption=(f"💡 **Track added to queue »** `{position}`\n\n🗂 **Name:** [{title[:35]}...]({url})\n⏱ **Duration:** `{duration}`\n🧸 **Request by:** {checking}"),
+        caption=(f"💡 **ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ »** `{position}`\n\n🗂 **ɴᴀᴍᴇ:** [{title[:35]}...]({url})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇǫᴜᴇsᴛ ʙʏ:** {checking}"),
         reply_markup=InlineKeyboardMarkup(buttons)
     )
         os.remove(thumb)
@@ -502,7 +502,7 @@ async def startyuplay(_,CallbackQuery):
         m = await CallbackQuery.message.reply_photo(
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
-        caption=(f"🗂 **Name:** [{title[:95]}]({url}) \n⏱ **Duration:** `{duration}`\n🧸 **Request by:** {checking}")
+        caption=(f"🗂 **ɴᴀᴍᴇ:** [{title[:95]}]({url}) \n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇǫᴜᴇsᴛ ʙʏ:** {checking}")
     )   
         os.remove(thumb)
         await CallbackQuery.message.delete()
