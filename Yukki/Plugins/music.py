@@ -329,7 +329,7 @@ async def play(_, message: Message):
         checking = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
         await message.reply_photo(
             photo=thumb,
-            caption=(f"💡 **Track added to queue »** {position}\n\n🗂 **Name:** [{title[:35]}...]({link}) \n⏱ **Duration:** `{duration}` \n🧸 **Request by:** {checking}"),
+            caption=(f"💡 **ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ** {position}\n\n🗂 **ɴᴀᴍᴇ:** [{title[:35]}...]({link}) \n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}` \n🧸 **ʀᴇǫᴜᴇsᴛ ʙʏ:** {checking}"),
             reply_markup=InlineKeyboardMarkup(buttons)
         )
         return await mystic.delete()     
@@ -346,7 +346,7 @@ async def play(_, message: Message):
                 stream_type=StreamType().local_stream,
             )
         except NoActiveGroupCall:
-            return await app.send_message(chat_id, "😕 Sorry, **no** active video chat!\n\n• to use me, **start one.**", reply_markup=close_keyboard)
+            return await app.send_message(chat_id, "😕 sᴏʀʀʏ, **no** ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ!\n\n• to use me, **start one.**", reply_markup=close_keyboard)
         await add_active_chat(chat_id)
         _chat_ = ((str(file)).replace("_","", 1).replace("/","", 1).replace(".","", 1))                                                                                           
         checking = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
@@ -363,7 +363,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
-        caption=(f"🗂 **Name:** [{title[:95]}]({link})\n⏱ Duration: `{duration}`\n🧸 Request by:** {checking}")
+        caption=(f"🗂 **ɴᴀᴍᴇ:** [{title[:95]}]({link})\n⏱ ᴅᴜʀᴀᴛɪᴏɴ: `{duration}`\n🧸 ʀᴇǫᴜᴇsᴛ ʙʏ:** {checking}")
     )   
         return await mystic.delete()
          
