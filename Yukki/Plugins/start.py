@@ -40,12 +40,12 @@ pstart_markup=InlineKeyboardMarkup(
                     InlineKeyboardButton(
                         "♥️ ✨𝗢𝘄𝗻𝗲𝗿✨ ", url="https://t.me/vayu60"),
                     InlineKeyboardButton(ꜱᴜᴅᴏ ᴜꜱᴇʀ
-                        "❤️ ꜱᴜᴅᴏ ᴜꜱᴇʀ✨ ", url="https://t.me/")
+                        "❤️ ꜱᴜᴅᴏ ᴜꜱᴇʀ✨ ", url="https://t.me/RidhamMusic")
                 ],[
                     InlineKeyboardButton(
                         "👥ɢʀᴏᴜᴘ🦄 ", url="https://t.me/UnicornALIVE")
                 ],[
-                   InlineKeyboardButton(
+                    InlineKeyboardButton(
                         "📚 ᴄᴏᴍᴍᴀɴᴅꜱ🦄", url="https://telegra.ph/Vayu-Music-03-11-2")
                 ]
             ]
