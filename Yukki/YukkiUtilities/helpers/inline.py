@@ -122,7 +122,7 @@ def search_markup2(ID6, ID7, ID8, ID9, ID10, duration6, duration7, duration8, du
                 InlineKeyboardButton(text="10", callback_data=f'yukki2 {ID10}|{duration10}|{user_id}')
             ],
             [
-                InlineKeyboardButton(text=". ", callback_data=f'popat 2|{query}|{user_id}')
+                InlineKeyboardButton(text="◁", callback_data=f'popat 2|{query}|{user_id}')
             ],
             [
                 InlineKeyboardButton(text="🔹 ᴄʟᴏsᴇ 🔹", callback_data=f"ppcl2 smex|{user_id}")
@@ -160,10 +160,10 @@ confirm_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✅ Yes", callback_data="cbdel"
+                        "✔️ ʏᴇs", callback_data="cbdel"
                     ),
                     InlineKeyboardButton(
-                        "❌ No", callback_data="close2"
+                        "❌ ɴᴏ", callback_data="close2"
                     )
                 ]    
             ]
@@ -174,10 +174,10 @@ confirm_group_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✅ Yes", callback_data="cbgroupdel"
+                        "✔️ ʏᴇs", callback_data="cbgroupdel"
                     ),
                     InlineKeyboardButton(
-                        "❌ No", callback_data="close2"
+                        "❌ ɴᴏ", callback_data="close2"
                     )
                 ]    
             ]
@@ -210,12 +210,12 @@ play_list_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Personal Playlist", callback_data="P_list"
+                        "ᴩᴇʀsᴏɴᴀʟ ᴘʟᴀʏʟɪsᴛ", callback_data="P_list"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Group's Playlist", callback_data="G_list"
+                        "ɢʀᴏᴜᴩ ᴘʟᴀʏʟɪsᴛ", callback_data="G_list"
                     )
                 ],
                 [
@@ -230,7 +230,7 @@ play_list_keyboard = InlineKeyboardMarkup(
 def playlist_markup(user_name, user_id):
     buttons= [
             [
-                InlineKeyboardButton(text=f"Group's Playlist", callback_data=f'play_playlist {user_id}|group')
+                InlineKeyboardButton(text=f"ɢʀᴏᴜᴩ ᴘʟᴀʏʟɪsᴛ", callback_data=f'play_playlist {user_id}|group')
             ],
             [
                 InlineKeyboardButton(text=f"{user_name[:8]}'s Playlist", callback_data=f'play_playlist {user_id}|personal')
